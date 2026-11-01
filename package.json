@@ -1,0 +1,11 @@
+{
+  "name": "kandanglab-ai-generatif",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Laboratorium 20 persona AI peternak sapi perah untuk simulasi kuesioner, bukan data penelitian lapangan.",
+  "scripts": {
+    "dev": "vercel dev",
+    "check": "node --check api/ai.js && node --check api/status.js"
+  }
+}
